@@ -40,6 +40,7 @@ B : LF B RF
 ;
 %%
 int main() {
+printf("Enter the code snippet:\n");
 yyparse();
 if(error){
 printf("error");
