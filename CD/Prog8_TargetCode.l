@@ -2,7 +2,7 @@
 #include "y.tab.h"
 #include <stdlib.h>
 #include <string.h>
-int yylineno = 1; 
+
 %}
 DIGIT [0-9]
 ID [a-zA-Z][a-zA-Z0-9]*
